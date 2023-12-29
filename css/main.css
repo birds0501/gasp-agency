@@ -4,6 +4,7 @@
   height: 63.7rem;
   position: relative;
   padding: 0 !important;
+  overflow: hidden;
 }
 .visual .video-wrap {
   height: 100%;
@@ -30,7 +31,18 @@
   font-weight: 700;
   font-size: 7.6rem;
   color: var(--point-color);
+  position: relative;
+  height: 100px;
+  overflow: hidden;
+  /* border: 1px solid #f00; */
 }
+
+.visual .visual-title h2 strong {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .visual .visual-title p {
   width: 60rem;
   width: 52.6316%;
